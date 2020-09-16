@@ -1,4 +1,4 @@
-# React Reduc Template
+# React Redux Template
 
 Make sure to remove the git repository
 
