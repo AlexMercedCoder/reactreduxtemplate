@@ -1,4 +1,4 @@
-# React Template
+# React Reduc Template
 
 Make sure to remove the git repository
 
@@ -10,5 +10,7 @@ Otherwise...
 ```npm run build``` to build into dist folder
 
 - sass is enabled
+- redux is installed, the reducer, actions, action types are all defined in the redux folder
+- example of use inside index.js
 
 
