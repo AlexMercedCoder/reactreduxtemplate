@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch",
-    "dev": "PORT=4000 webpack-dev-server --open",
+    "dev": "cross-env PORT=4000 webpack-dev-server --open",
     "build": "webpack --env.production"
   },
   "keywords": [],
@@ -35,6 +35,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
+    "cross-env": "^7.0.2",
     "redux": "^4.0.5"
   }
 }
